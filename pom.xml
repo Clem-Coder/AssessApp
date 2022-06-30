@@ -11,11 +11,10 @@
 	<groupId>com.mediscreen</groupId>
 	<artifactId>AssessApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>AssessApp</name>
 	<description>This application allows to assess the risks for each patient</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

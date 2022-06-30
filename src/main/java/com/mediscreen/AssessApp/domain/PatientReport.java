@@ -1,4 +1,4 @@
-package com.mediscreen.AssessApp.controller.domain;
+package com.mediscreen.AssessApp.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,15 +11,10 @@ import java.time.Period;
 public class PatientReport {
 
     private String firstname;
-
     private String lastname;
-
     private int age;
-
     private String sex;
-
     private String address;
-
     private String phoneNumber;
     private String riskLevel;
 

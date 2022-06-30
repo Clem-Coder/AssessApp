@@ -1,4 +1,4 @@
-package com.mediscreen.AssessApp.controller.domain;
+package com.mediscreen.AssessApp.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,24 +10,15 @@ public class Patient {
 
     private Integer id;
 
-
     private String firstname;
 
-
     private String lastname;
-
     private LocalDate dateOfBorn;
-
     private String sex;
-
     private String address;
-
     private String phoneNumber;
-
     private String family;
-
     private String given;
-
 
 
     public Patient() {

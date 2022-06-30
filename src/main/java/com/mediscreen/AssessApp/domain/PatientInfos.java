@@ -1,4 +1,4 @@
-package com.mediscreen.AssessApp.controller.domain;
+package com.mediscreen.AssessApp.domain;
 
 import lombok.Getter;
 import lombok.Setter;

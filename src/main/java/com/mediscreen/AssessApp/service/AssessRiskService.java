@@ -1,8 +1,8 @@
 package com.mediscreen.AssessApp.service;
 
 import com.mediscreen.AssessApp.constants.Age;
-import com.mediscreen.AssessApp.controller.domain.Patient;
-import com.mediscreen.AssessApp.controller.domain.PatientReport;
+import com.mediscreen.AssessApp.domain.Patient;
+import com.mediscreen.AssessApp.domain.PatientReport;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import com.mediscreen.AssessApp.constants.Triggers;
@@ -37,6 +37,7 @@ public class AssessRiskService {
                 return new PatientReport(patient,"Early onset");
             }
         }
+
         if(patientAge < Age.THIRTY_YEARS_OLD){
             if(patient.getSex().equals("M")){
                 if (numberOfOccurrences >= 3 && numberOfOccurrences <=4 ){
