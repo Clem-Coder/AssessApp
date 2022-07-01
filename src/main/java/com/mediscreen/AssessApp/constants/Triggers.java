@@ -18,6 +18,5 @@ public final class Triggers {
                 add("Rechute");
                 add("Réaction");
                 add("Anticorps");
-                add("Taille");
             }});
 }

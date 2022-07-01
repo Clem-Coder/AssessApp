@@ -31,4 +31,10 @@ public class Patient {
         this.address     = address;
         this.phoneNumber = phoneNumber;
     }
+
+    public Patient(LocalDate dateOfBorn, String sex) {
+
+        this.dateOfBorn = dateOfBorn;
+        this.sex        = sex;
+    }
 }
